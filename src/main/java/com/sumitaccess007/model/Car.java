@@ -9,9 +9,7 @@ public class Car {
         this.color = color;
     }
 
-    public Car() {
-
-    }
+    public Car() {}
 
     public String getBrand() {
         return brand;
@@ -28,6 +26,5 @@ public class Car {
     public void setColor(String color) {
         this.color = color;
     }
-
 
 }

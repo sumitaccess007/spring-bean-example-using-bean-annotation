@@ -15,7 +15,7 @@ public class SpringBeanExampleApplication {
         // STEP-4 - Retrieve the Bean from the Spring Context
         // Referring to Car Instance by type
         Car car = context.getBean(Car.class);
-        System.out.println("Referring Car Instance by type -");
+        System.out.println("Referring Car Instance (or Bean) by type -");
         System.out.println("Car Brand: " + car.getBrand());
         System.out.println("Car Brand: " + car.getColor());
         System.out.println();

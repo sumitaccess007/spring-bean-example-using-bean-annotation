@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Primary;
 @Configuration
 public class AppConfig {
 
-    // STEP-2 - Define a Bean Method (1. car)
+    // STEP-2 - Define a Bean Method (1. BMW)
     @Bean(name = "bmw")
     public Car car() {
         Car car = new Car();
@@ -18,7 +18,7 @@ public class AppConfig {
         return car;
     }
 
-    // Some more beans of Car type (2. carBentley)
+    // Some more beans of Car type (2. Bentley)
     @Bean
     public Car carBentley() {
         Car car = new Car();
@@ -27,7 +27,7 @@ public class AppConfig {
         return car();
     }
 
-    // Third Bean of Car type (3. carFerrari)
+    // Third Bean of Car type (3. Ferrari)
     @Bean
     public Car carFerrari() {
         Car car = new Car();
